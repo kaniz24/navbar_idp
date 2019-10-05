@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/acc"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Accelerometer Activity" />
+        <item
+            android:id="@+id/prox"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Proximity Activity" />
+        <item
+            android:id="@+id/gyro"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Gyroscope Activity" />
+        <item
+            android:id="@+id/shake"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Shake Detection Activity" />
+    </group>
+
+</menu>
